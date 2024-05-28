@@ -18,8 +18,8 @@ cmd.do(f'load 1G244.pdb')
 cmd.do(f'util.cbap 1G244')
 cmd.do('load nlrp1.pdb')
 cmd.do('util.cbao nlrp1')
-cmd.do(f'load oxybetalactam_inhibitor_12.pdb')
-cmd.do('util.cbao oxybetalactam_inhibitor_12')
+cmd.do(f'load 4_oxo_b_lactam_inhibitor_12.pdb')
+cmd.do('util.cbao 4_oxo_b_lactam_inhibitor_12')
 
 
 # Load the probes
