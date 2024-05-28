@@ -16,7 +16,7 @@ Get the data using:
 git clone FILL
 ```
 
-Visualize only the central carbon densities, type the following line in the command line:
+To visualize only the central carbon densities, type the following line in the command line:
 
 ```
 pymol pymol_simple.py
@@ -26,20 +26,20 @@ pymol pymol_simple.py
 
 The legend for the created objects is as follows:
 
-'protein name.probe name abbreviation.cutoff '
+`protein name.probe name abbreviation.cutoff `
 
 We use the following abbreviations:
 
-'IPOH': isopropanol
-'IPAM': isopropyl ammonium
-'ACET': acetate
-'ACEM': acetamide
-'ISB': isobutane
-'BNZ': benzene
++ `IPOH`: isopropanol
++ `IPAM`: isopropyl ammonium
++ `ACET`: acetate
++ `ACEM`: acetamide
++ `ISB`: isobutane
++ `BNZ`: benzene
 
 In Pymol you can now click the cutoff you wish to visualize for each density in the Pymol sidebar. Cutoffs are given in Å**-3
 
-Visualize the atom densities of the functonial groups as well:
+To visualize the atom densities of the functonial groups as well:
 
 ```
 pymol pymol_full.py
@@ -49,16 +49,16 @@ pymol pymol_full.py
 
 The legend for the additional objects is as follows:
 
-'protein name.probe name abbreviation.atom group.cutoff '
+`protein name.probe name abbreviation.atom group.cutoff `
 
 
 ## Making your own visualizations
 
-Feel free to visualize different cutoffs of density data (dx files) using the [isosurface](https://pymolwiki.org/index.php/Isosurface) or [isomesh](https://pymolwiki.org/index.php/Isomesh) commands of Pymol. If you used '' or '' then the dx files data is stored in the following object:
+Feel free to visualize different cutoffs of density data (dx files) using the [isosurface](https://pymolwiki.org/index.php/Isosurface) or [isomesh](https://pymolwiki.org/index.php/Isomesh) commands of Pymol. If you used `pymol_simple.py` or `pymol_full.py` then the dx files data is stored in the following object:
 
-'protein name.probe name abbreviation.density'
+`protein name.probe name abbreviation.density`
 
-'protein name.probe name abbreviation.atom group.density'
+`protein name.probe name abbreviation.atom group.density`
 
 ## Publication
 
