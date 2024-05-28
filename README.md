@@ -37,7 +37,7 @@ We use the following abbreviations:
 + `ISB`: isobutane
 + `BNZ`: benzene
 
-In Pymol you can now click the cutoff you wish to visualize for each density in the Pymol sidebar. Cutoffs are given in Å**-3
+In Pymol you can now click the cutoff you wish to visualize for each density in the Pymol sidebar. Cutoffs are given in Å<sup>-3</sup>
 
 To visualize the atom densities of the functonial groups as well:
 
