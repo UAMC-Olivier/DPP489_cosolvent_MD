@@ -13,7 +13,7 @@ Alternatively other visualization softwares may also work, but you will have to 
 Get the data using:
 
 ```
-git clone FILL
+git clone https://github.com/UAMC-Olivier/DPP489_cosolvent_MD.git
 ```
 
 To visualize only the central carbon densities, type the following line in the command line:
