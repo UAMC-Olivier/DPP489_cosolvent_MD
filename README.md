@@ -37,7 +37,7 @@ We use the following abbreviations:
 + `ISB`: isobutane
 + `BNZ`: benzene
 
-In Pymol you can now click the cutoff you wish to visualize for each density in the Pymol sidebar. Cutoffs are given in Å<sup>-3</sup>
+In Pymol you can now click the cutoff you wish to visualize for each density in the Pymol sidebar. Cutoffs are given in Å<sup>-3</sup>. 
 
 To visualize the atom densities of the functonial groups as well:
 
@@ -45,7 +45,7 @@ To visualize the atom densities of the functonial groups as well:
 pymol pymol_full.py
 ```
 
-(Visualizing the atom densities of the functonial groups takes additional time and uses more memory)
+Visualizing the atom densities of the functonial groups takes additional time and uses more memory. Using `pymol_full.py` you will also see 'summed' density objects, these contain the sum of the densities of the central carbon atoms of the probes of the hydrophilic mixture (`IPOH + IPAM + ACET + ACEM`). 
 
 The legend for the additional objects is as follows:
 
@@ -77,3 +77,4 @@ These are from the following publications:
 * Hollingsworth, L.R., et al. (2021) DPP9 sequesters the C terminus of NLRP1 to repress inflammasome activation. Nature 592 (7856):778-783.
 
 * Carvalho, L.A., et al. (2022) Chemoproteomics‐Enabled Identification of 4‐Oxo‐β‐Lactams as Inhibitors of Dipeptidyl Peptidases 8 and 9. Angewandte Chemie International Edition
+
