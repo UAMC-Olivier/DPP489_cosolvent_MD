@@ -45,9 +45,9 @@ To visualize the atom densities of the functonial groups as well:
 pymol pymol_full.py
 ```
 
-Visualizing the atom densities of the functonial groups takes additional time and uses more memory. Using `pymol_full.py` you will also see 'summed' density objects, these contain the sum of the densities of the central carbon atoms of the probes of the hydrophilic mixture (`IPOH + IPAM + ACET + ACEM`). 
+Visualizing the atom densities of the functonial groups takes additional time and uses more memory. Using `pymol_full.py` you will also see `summed` density objects, these contain the sum of the densities of the central carbon atoms of the probes of the hydrophilic mixture (`IPOH + IPAM + ACET + ACEM`). 
 
-The legend for the additional objects is as follows:
+The legend for the additional objects from `pymol pymol_full.py` is as follows:
 
 `protein name.probe name abbreviation.atom group.cutoff `
 
