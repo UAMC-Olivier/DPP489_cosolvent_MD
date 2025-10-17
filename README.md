@@ -62,7 +62,7 @@ Feel free to visualize different cutoffs of density data (dx files) using the [i
 
 ## Publication
 
-Currently in press
+[O. Beyens, S. Corthaut, S. Peeters, P. Van Der Veken, I. De Meester, H. De Winter. (2024) Cosolvent Molecular Dynamics Applied to DPP4, DPP8 and DPP9: Reproduction of Important Binding Features and Use in Inhibitor Design. Journal of Chemical Information and Modeling (Volume 64/Issue 19)](https://pubs.acs.org/doi/full/10.1021/acs.jcim.4c01167)
 
 ## References
 
